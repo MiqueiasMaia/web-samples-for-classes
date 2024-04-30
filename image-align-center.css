@@ -1,0 +1,11 @@
+.my-row {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.my-icon-image {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
