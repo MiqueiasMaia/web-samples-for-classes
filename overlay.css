@@ -1,0 +1,37 @@
+.img-with-overlay {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://sindiagua.org.br/wp-content/uploads/2023/09/IMG-20230818-WA0039.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.img-with-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    margin: 0;
+}
+
+.full-size {
+    height: 100vh;
+}
