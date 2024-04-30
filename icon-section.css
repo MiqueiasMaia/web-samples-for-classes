@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.container-padding {
+    padding: 5%;
+}
+
+.col {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.row {
+    height: 18vh;
+}
+
+.primeira-imagem{
+    background-image: url('https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png');
+    background-size: cover;
+}
+
+.segunda-imagem {
+    background-image: url('https://iconesports.com.br/wp-content/uploads/2024/01/ATENDIMENTO-EXPRESS-orcamento-compra-uniforme-esportivo-personalizado-verde-listrado-MBL.jpg');
+    background-size: cover;
+}
